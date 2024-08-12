@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background: #111827; */
+  color: white;
+  background: white;
+}
+.post-box {
+  position: absolute;
+  inset: 0px auto auto 0px ;
+  margin: 0 px;
+  transform: translate3d(748.5px, 1098px, 0px)
+
+}
