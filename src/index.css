@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 body {
-  /* background: #111827; */
+  background: #111827;
   color: white;
-  background: white;
+  /* background: white; */
 }
 .post-box {
   position: absolute;
