@@ -1,9 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Atlys
+Figma design link : https://www.figma.com/proto/S4bZXDniOieMhyGIpTnVu5/Frontend-Developer%3A-Atlys?node-id=1-3&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2
+
+Routes:-
+1. / => Feed Page
+2. /login => Login Modal
+3. /signup => SignUp Modal
+   
+  
