@@ -15,7 +15,7 @@ function CreatePost (props) {
                 <input class="w-full bg-gray-800 text-gray-100 my-4 m-2 " placeholder="How are you feeling today ?"></input>
             </figcaption>
             <figcaption class="flex flex-row justify-end p-5 px-0 ">
-                <button class="bg-blue-400 rounded-lg w-20 h-10">Post</button>
+                <button href="/signup" class="bg-blue-400 rounded-lg w-20 h-10">Post</button>
             </figcaption>
         </figure>
     )
