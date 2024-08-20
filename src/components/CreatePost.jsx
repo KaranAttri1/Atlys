@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function CreatePost (props) {
+    const navigate = useNavigate()
     return (
         <figure class="flex flex-col justify-center b-5 p-8 m-3 bg-gray-500 border-gray-600 rounded-b-lg md:rounded-lg dark:bg-gray-800 dark:border-gray-700">
             <figcaption class="flex p-5 px-0">
@@ -15,7 +18,7 @@ function CreatePost (props) {
                 <input class="w-full bg-gray-800 text-gray-100 my-4 m-2 " placeholder="How are you feeling today ?"></input>
             </figcaption>
             <figcaption class="flex flex-row justify-end p-5 px-0 ">
-                <button href="/signup" class="bg-blue-400 rounded-lg w-20 h-10">Post</button>
+                <button onClick={()=>navigate('/signup')} class="bg-blue-400 rounded-lg w-20 h-10">Post</button>
             </figcaption>
         </figure>
     )
